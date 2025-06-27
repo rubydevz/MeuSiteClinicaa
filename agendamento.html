@@ -75,6 +75,32 @@
                                             min="1" max="5" step="1"/>
             <br/><br/>
 
+            <label for="tipo">Opção de Consulta: </label>
+            <select name="tipo" id="tipo">
+                <option value="tcc">Terapia Cognitivo-Comportamental</option>
+                <option value="ludoterapia">Ludoterapia</option>
+                <option value="junguiana">Junguiana</option>
+                <option value="grupo">Terapia em Grupo</option>
+            </select>
+            <br/><br/>
+
+            <fieldset>
+                <legend>Gênero</legend>
+                <input id="masc" type="radio" name="genero" value="M"/>
+                <label for="masc">Masculino</label><br/>
+                <input id="fem" type="radio" name="genero" value="F"/>
+                <label for="fem">Feminino</label><br/>
+            </fieldset>
+            <br/>
+
+            <fieldset>
+                <legend>Onde nos conheceu?</legend>
+                <input id="insta" type="checkbox" name="origem" value="instagram"/>
+                <label for="insta">Instagram</label><br/>
+                <input id="insta" type="checkbox" name="origem" value="instagram"/>
+                <label for="insta">Instagram</label><br/>
+            </fieldset>
+
             <p>
                 <input type="submit" name="botao_enviar" value="Enviar"/>
                 <input type="reset" name="botao_limpar" value="Limpar"/>
