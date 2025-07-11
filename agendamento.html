@@ -9,35 +9,33 @@
 
     <meta name="description" content="Consulte-se com a clinica Amanhecer, 
                                         utilizamos terapia cognitiva comportamental"/>
-
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
 </head>
-<body bgcolor="#FFF8FA" link="A4003C" alink="A4003C" vlink="A4003C">
+<body>
 
-    <img src="img\testeClinicaAmanhecer.png"width="100%"height=""
+    <img src="img\testeClinicaAmanhecer.png"
     alt="banner principal da clinica que busca representar um amanhecer do sol. 
     Possui no fundo da imagem, as cores: roxo e tons de rosa.
     No canto esquerdo da imagem, possui a ilustração do simbolo da clinica,
     uma fenix em tons de cor amarela que representa o sol.
     No meio da imagem esta escrito, em tons de roxo, Clinica Amanhecer."/>
 
-    <center>
-        <font face="Inter" size="4">
+
+
         <a href="index.html">Home</a>
         <a href="index.html#pag-beneficios">Benefícios</a>
         <a href="index.html#pag-servicos">Nossos Serviços</a>
         <a href="index.html#pag-espaco">Nosso Espaço</a>
         <a href="agendamento.html">Agendamento</a>
-        </font>
-    </center>
 
-    <hr/>
 
-    <font face = "Cooper Black" size="6" color="#350A3F">
-        <h1 align="center">Agendamento</h1>
-    </font>
-    <br>
 
-    <font face = "Arial" size="5" color="black" align="center">
+
+        <h1>Agendamento</h1>
+
+
+
 
         <form name="agendamento" method="get" action="agendamento.html">
 
@@ -45,23 +43,22 @@
             <input type="text" id="nome" name="nome" size="80"
                         placeholder="Digite seu nome completo" required autofocus/>
             
-            <br/><br/>
 
             <label for="email">E-mail: </label> <br/>
             <input focus type="email" name="email" id="email" size="80"
                                     placeholder="Digite seu e-mail"/>
-            <br/><br/>
+
 
             <label for="senha">Senha: </label> <br/>
             <input type="password" name="senha" id="senha" size="80"
                                     placeholder="Digite sua senha"/>
-            <br/><br/>
+
 
             <label for="celular">Celular: </label> <br/>
             <input type="tel" name="celular" id="celular" size="80"
                     placeholder="(99)99999-9999" pattern="^\(\d{2}\)\d{5}-\d{4}$"/>
             
-            <br/><br/>
+
 
             <label for="data">Data: </label>
             <input type="date" name="data" id="data"/>
@@ -73,7 +70,7 @@
             <label for="quantidade">Quantidade de Pessoas: </label>
             <input type="number" name="quantidade" id="quantidade"
                                             min="1" max="5" step="1"/>
-            <br/><br/>
+
 
             <label for="tipo">Opção de Consulta: </label>
             <select name="tipo" id="tipo">
@@ -82,7 +79,7 @@
                 <option value="junguiana">Junguiana</option>
                 <option value="grupo">Terapia em Grupo</option>
             </select>
-            <br/><br/>
+
 
             <fieldset>
                 <legend>Gênero</legend>
@@ -91,7 +88,7 @@
                 <input id="fem" type="radio" name="genero" value="F"/>
                 <label for="fem">Feminino</label><br/>
             </fieldset>
-            <br/>
+
 
             <fieldset>
                 <legend>Onde nos conheceu?</legend>
@@ -105,16 +102,16 @@
                 <label for="outro">Outro</label><br/>
             </fieldset>
 
-            <br/>
+
             <label for="msg">Mensagem:</label><br/>
             <textarea id="msg" cols="80" rows="6"></textarea>
-            <br/>
+
 
             <p>
                 <input type="submit" name="botao_enviar" value="Enviar"/>
                 <input type="reset" name="botao_limpar" value="Limpar"/>
             </p>
         </form>
-    </font>
+
 </body>
 </html>
