@@ -1,117 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <title>Clínica Amanhcer</title>
     <meta charset="UTF-8">
-    <meta name="autor" content="Maria Madalena"/>
+    <meta name="autor" content="Maria Madalena" />
     <meta name="keywords" content="Clinica, amanhecer, psicoterapia, 
-                                            terapia, comportamental"/>
+                                            terapia, comportamental" />
 
     <meta name="description" content="Consulte-se com a clinica Amanhecer, 
-                                        utilizamos terapia cognitiva comportamental"/>
+                                        utilizamos terapia cognitiva comportamental" />
     <link rel="stylesheet" type="text/css" href="estilo.css">
-    
+
 </head>
+
 <body>
 
-    <img src="img\testeClinicaAmanhecer.png"
-    alt="banner principal da clinica que busca representar um amanhecer do sol. 
+    <img src="img\testeClinicaAmanhecer.png" alt="banner principal da clinica que busca representar um amanhecer do sol. 
     Possui no fundo da imagem, as cores: roxo e tons de rosa.
     No canto esquerdo da imagem, possui a ilustração do simbolo da clinica,
     uma fenix em tons de cor amarela que representa o sol.
-    No meio da imagem esta escrito, em tons de roxo, Clinica Amanhecer."/>
+    No meio da imagem esta escrito, em tons de roxo, Clinica Amanhecer." />
+
+    <a href="index.html">Home</a>
+    <a href="index.html#pag-beneficios">Benefícios</a>
+    <a href="index.html#pag-servicos">Nossos Serviços</a>
+    <a href="index.html#pag-espaco">Nosso Espaço</a>
+    <a href="agendamento.html">Agendamento</a>
+
+    <h1>Agendamento</h1>
+
+    <form name="agendamento" method="get" action="agendamento.html">
+
+        <label for="nome">Nome: </label> <br />
+        <input type="text" id="nome" name="nome" size="80" placeholder="Digite seu nome completo" required autofocus />
 
 
-
-        <a href="index.html">Home</a>
-        <a href="index.html#pag-beneficios">Benefícios</a>
-        <a href="index.html#pag-servicos">Nossos Serviços</a>
-        <a href="index.html#pag-espaco">Nosso Espaço</a>
-        <a href="agendamento.html">Agendamento</a>
+        <label for="email">E-mail: </label> <br />
+        <input focus type="email" name="email" id="email" size="80" placeholder="Digite seu e-mail" />
 
 
+        <label for="senha">Senha: </label> <br />
+        <input type="password" name="senha" id="senha" size="80" placeholder="Digite sua senha" />
 
 
-        <h1>Agendamento</h1>
+        <label for="celular">Celular: </label> <br />
+        <input type="tel" name="celular" id="celular" size="80" placeholder="(99)99999-9999"
+            pattern="^\(\d{2}\)\d{5}-\d{4}$" />
 
+        <label for="data">Data: </label>
+        <input type="date" name="data" id="data" />
 
+        <label for="hora">Hora: </label>
+        <input type="time" name="hora" id="hora" />
 
+        <label for="quantidade">Quantidade de Pessoas: </label>
+        <input type="number" name="quantidade" id="quantidade" min="1" max="5" step="1" />
 
-        <form name="agendamento" method="get" action="agendamento.html">
+        <label for="tipo">Opção de Consulta: </label>
+        <select name="tipo" id="tipo">
+            <option value="tcc">Terapia Cognitivo-Comportamental</option>
+            <option value="ludoterapia">Ludoterapia</option>
+            <option value="junguiana">Junguiana</option>
+            <option value="grupo">Terapia em Grupo</option>
+        </select>
 
-            <label for="nome">Nome: </label> <br/>
-            <input type="text" id="nome" name="nome" size="80"
-                        placeholder="Digite seu nome completo" required autofocus/>
-            
+        <fieldset>
+            <legend>Gênero</legend>
+            <input id="masc" type="radio" name="genero" value="M" />
+            <label for="masc">Masculino</label><br />
+            <input id="fem" type="radio" name="genero" value="F" />
+            <label for="fem">Feminino</label><br />
+        </fieldset>
 
-            <label for="email">E-mail: </label> <br/>
-            <input focus type="email" name="email" id="email" size="80"
-                                    placeholder="Digite seu e-mail"/>
+        <fieldset>
+            <legend>Onde nos conheceu?</legend>
+            <input id="insta" type="checkbox" name="origem" value="instagram" />
+            <label for="insta">Instagram</label><br />
+            <input id="face" type="checkbox" name="origem" value="facebook" />
+            <label for="face">Facebook</label><br />
+            <input id="yout" type="checkbox" name="origem" value="youtube" />
+            <label for="yout">Youtube</label><br />
+            <input id="outro" type="checkbox" name="origem" value="outro" />
+            <label for="outro">Outro</label><br />
+        </fieldset>
 
+        <label for="msg">Mensagem:</label><br />
+        <textarea id="msg" cols="80" rows="6"></textarea>
 
-            <label for="senha">Senha: </label> <br/>
-            <input type="password" name="senha" id="senha" size="80"
-                                    placeholder="Digite sua senha"/>
-
-
-            <label for="celular">Celular: </label> <br/>
-            <input type="tel" name="celular" id="celular" size="80"
-                    placeholder="(99)99999-9999" pattern="^\(\d{2}\)\d{5}-\d{4}$"/>
-            
-
-
-            <label for="data">Data: </label>
-            <input type="date" name="data" id="data"/>
-
-
-            <label for="hora">Hora: </label>
-            <input type="time" name="hora" id="hora"/>
-
-            <label for="quantidade">Quantidade de Pessoas: </label>
-            <input type="number" name="quantidade" id="quantidade"
-                                            min="1" max="5" step="1"/>
-
-
-            <label for="tipo">Opção de Consulta: </label>
-            <select name="tipo" id="tipo">
-                <option value="tcc">Terapia Cognitivo-Comportamental</option>
-                <option value="ludoterapia">Ludoterapia</option>
-                <option value="junguiana">Junguiana</option>
-                <option value="grupo">Terapia em Grupo</option>
-            </select>
-
-
-            <fieldset>
-                <legend>Gênero</legend>
-                <input id="masc" type="radio" name="genero" value="M"/>
-                <label for="masc">Masculino</label><br/>
-                <input id="fem" type="radio" name="genero" value="F"/>
-                <label for="fem">Feminino</label><br/>
-            </fieldset>
-
-
-            <fieldset>
-                <legend>Onde nos conheceu?</legend>
-                <input id="insta" type="checkbox" name="origem" value="instagram"/>
-                <label for="insta">Instagram</label><br/>
-                <input id="face" type="checkbox" name="origem" value="facebook"/>
-                <label for="face">Facebook</label><br/>
-                <input id="yout" type="checkbox" name="origem" value="youtube"/>
-                <label for="yout">Youtube</label><br/>
-                <input id="outro" type="checkbox" name="origem" value="outro"/>
-                <label for="outro">Outro</label><br/>
-            </fieldset>
-
-
-            <label for="msg">Mensagem:</label><br/>
-            <textarea id="msg" cols="80" rows="6"></textarea>
-
-
-            <p>
-                <input type="submit" name="botao_enviar" value="Enviar"/>
-                <input type="reset" name="botao_limpar" value="Limpar"/>
-            </p>
-        </form>
+        <p>
+            <input type="submit" name="botao_enviar" value="Enviar" />
+            <input type="reset" name="botao_limpar" value="Limpar" />
+        </p>
+    </form>
 
 </body>
+
 </html>
