@@ -10,18 +10,42 @@ body{
     background-color: antiquewhite;
 }
 
-header, img{
+header{
+    width: 100%;
+    height: 400px;
+}
+
+#banner{
     width: 100%;
     height: 400px;
 }
 
 nav{
-    width: 100%;
-    height: 30px;
-    background-color: aqua;
+    background-color: #410b46;
+    text-align: center;
+    padding: 10px;
 }
 
-a{}
+a{
+    font: 1.2rem 'Avenir', 'Lato', sans-serif;
+    color:blue;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.a-menu{
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.a-menu:link, a-menu:visited{
+    color:bisque;
+}
+
+.a-menu:hover, a-menu:active{
+    color:yellow;
+}
 
 article{
     width: 100%;
@@ -44,4 +68,65 @@ p{
     margin-bottom: 10px;
     text-indent: 50px;
     line-height: 30px;
+}
+
+#meu-negrito{
+    font-weight: bold;
+}
+
+section{
+    padding: 20px;
+}
+
+h2{
+    font: 3.5rem 'French Script MT', 'Dancing Script', cursive;
+    color:antiquewhite;
+}
+
+#pag-beneficios{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#pag-beneficios h2{
+    background-color: aquamarine;
+}
+
+#pag-beneficios p{
+    color:blanchedalmond;
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type: disc;
+    padding: 20px 50px;
+}
+
+li{
+    font: 1.2rem 'Avenir', 'Lato', sans-serif;
+    color:beige;
+    margin-bottom: 10px;
+}
+
+#pag-tipos{
+    background-color: #410b46;
+    padding: 20px;
+}
+
+#container{
+    display: flex;
+}
+
+.card{
+    background-color: antiquewhite;
+    margin: 10px;
+    width: 25%;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.img-tipos{
+    width: 100%;
 }
