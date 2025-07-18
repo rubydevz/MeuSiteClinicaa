@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(204, 170, 124);
 }
 
 header{
@@ -28,7 +28,7 @@ nav{
 
 a{
     font: 1.2rem 'Avenir', 'Lato', sans-serif;
-    color:blue;
+    color:rgb(255, 151, 238);
     text-decoration: none;
     margin-right: 30px;
     font-weight: bold;
@@ -40,11 +40,11 @@ a{
 }
 
 .a-menu:link, a-menu:visited{
-    color:bisque;
+    color:rgb(160, 36, 197);
 }
 
 .a-menu:hover, a-menu:active{
-    color:yellow;
+    color:rgb(109, 15, 138);
 }
 
 article{
@@ -80,7 +80,7 @@ section{
 
 h2{
     font: 3.5rem 'French Script MT', 'Dancing Script', cursive;
-    color:antiquewhite;
+    color:rgb(0, 0, 0);
 }
 
 #pag-beneficios{
@@ -115,18 +115,97 @@ li{
 
 #container{
     display: flex;
+    margin-top: 20px;
+}
+
+#pag-espaco{
+
+}
+
+#container-espaco p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#container-espaco{
+    display: flex;
+    margin-top: 20px;
+}
+
+.colunas-espaco{
+    padding: 40px;
 }
 
 .card{
-    background-color: antiquewhite;
+    background-color: rgb(241, 207, 248);
     margin: 10px;
     width: 25%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #CCCCCC;
+}
+
+.card:hover{
+    box-shadow: 0px 8px 16px #CCCCCC;
 }
 
 .card-content{
     padding: 10px;
 }
 
+.card-content p{
+    font: 1.2rem 'Avenir', 'Lato', sans-serif;
+    line-height: 25px;
+}
+
+h3{
+    font: 3rem 'French Script MT', 'Dancing Script', cursive;
+    color: #795548;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .img-tipos{
     width: 100%;
+}
+
+.img-icones{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 7px;
+}
+
+.container-contatos{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contatos p{
+    color: #000000;
+    padding: 10px 20px 10px 5px;
+}
+
+video{
+    width: 600px;
+}
+
+footer{
+    background-color: #261300;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active{
+    color: #FF5722;
 }
