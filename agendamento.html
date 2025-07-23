@@ -15,47 +15,58 @@
 </head>
 
 <body>
-
-    <img src="img\testeClinicaAmanhecer.png" alt="banner principal da clinica que busca representar um amanhecer do sol. 
+    <header>
+    <img id="banner" src="img\testeClinicaAmanhecer.png" alt="banner principal da clinica que busca representar um amanhecer do sol. 
     Possui no fundo da imagem, as cores: roxo e tons de rosa.
     No canto esquerdo da imagem, possui a ilustração do simbolo da clinica,
     uma fenix em tons de cor amarela que representa o sol.
     No meio da imagem esta escrito, em tons de roxo, Clinica Amanhecer." />
+    </header>
 
+    <nav>
     <a href="index.html">Home</a>
     <a href="index.html#pag-beneficios">Benefícios</a>
     <a href="index.html#pag-servicos">Nossos Serviços</a>
     <a href="index.html#pag-espaco">Nosso Espaço</a>
     <a href="agendamento.html">Agendamento</a>
+    </nav>
 
+    <section id="pag-agendamentos">
     <h1>Agendamento</h1>
 
     <form name="agendamento" method="get" action="agendamento.html">
 
         <label for="nome">Nome: </label> <br />
-        <input type="text" id="nome" name="nome" size="80" placeholder="Digite seu nome completo" required autofocus />
+        <input type="text" id="nome" name="nome" size="68" placeholder="Digite seu nome completo" required autofocus />
 
 
         <label for="email">E-mail: </label> <br />
-        <input focus type="email" name="email" id="email" size="80" placeholder="Digite seu e-mail" />
+        <input focus type="email" name="email" id="email" size="68" placeholder="Digite seu e-mail" />
 
 
         <label for="senha">Senha: </label> <br />
-        <input type="password" name="senha" id="senha" size="80" placeholder="Digite sua senha" />
+        <input type="password" name="senha" id="senha" size="68" placeholder="Digite sua senha" />
 
 
         <label for="celular">Celular: </label> <br />
-        <input type="tel" name="celular" id="celular" size="80" placeholder="(99)99999-9999"
+        <input type="tel" name="celular" id="celular" size="68" placeholder="(99)99999-9999"
             pattern="^\(\d{2}\)\d{5}-\d{4}$" />
 
-        <label for="data">Data: </label>
-        <input type="date" name="data" id="data" />
 
-        <label for="hora">Hora: </label>
-        <input type="time" name="hora" id="hora" />
-
-        <label for="quantidade">Quantidade de Pessoas: </label>
-        <input type="number" name="quantidade" id="quantidade" min="1" max="5" step="1" />
+        <div id="data_hora_qtd">
+            <div>
+                <label for="data">Data: </label>
+                <input type="date" name="data" id="data" />
+            </div>
+            <div>
+                <label for="hora">Hora: </label>
+                <input type="time" name="hora" id="hora" />
+            </div>
+            <div>
+                <label for="quantidade">Quantidade de Pessoas: </label>
+                <input type="number" name="quantidade" id="quantidade" min="1" max="5" step="1" />
+            </div>
+        </div>
 
         <label for="tipo">Opção de Consulta: </label>
         <select name="tipo" id="tipo">
@@ -67,32 +78,46 @@
 
         <fieldset>
             <legend>Gênero</legend>
-            <input id="masc" type="radio" name="genero" value="M" />
-            <label for="masc">Masculino</label><br />
-            <input id="fem" type="radio" name="genero" value="F" />
-            <label for="fem">Feminino</label><br />
+            <div>
+                <input id="masc" type="radio" name="genero" value="M" />
+                <label for="masc">Masculino</label><br />
+            </div>
+            <div>
+                <input id="fem" type="radio" name="genero" value="F" />
+                <label for="fem">Feminino</label><br />
+            </div>
         </fieldset>
 
         <fieldset>
             <legend>Onde nos conheceu?</legend>
-            <input id="insta" type="checkbox" name="origem" value="instagram" />
-            <label for="insta">Instagram</label><br />
-            <input id="face" type="checkbox" name="origem" value="facebook" />
-            <label for="face">Facebook</label><br />
-            <input id="yout" type="checkbox" name="origem" value="youtube" />
-            <label for="yout">Youtube</label><br />
-            <input id="outro" type="checkbox" name="origem" value="outro" />
-            <label for="outro">Outro</label><br />
+            <div>
+                <input id="insta" type="checkbox" name="origem" value="instagram" />
+                <label for="insta">Instagram</label><br />
+            </div>
+            <div>
+                <input id="face" type="checkbox" name="origem" value="facebook" />
+                <label for="face">Facebook</label><br />
+            </div>
+            <div>
+                <input id="yout" type="checkbox" name="origem" value="youtube" />
+                <label for="yout">Youtube</label><br />
+            </div>
+            <div>
+                <input id="outro" type="checkbox" name="origem" value="outro" />
+                <label for="outro">Outro</label><br />
+            </div>
         </fieldset>
 
         <label for="msg">Mensagem:</label><br />
-        <textarea id="msg" cols="80" rows="6"></textarea>
+        <textarea id="msg" cols="68" rows="6"></textarea>
 
-        <p>
+        <div id="botoes-form">
             <input type="submit" name="botao_enviar" value="Enviar" />
             <input type="reset" name="botao_limpar" value="Limpar" />
-        </p>
+        </div>
+
     </form>
+    </section>
 
     <footer>
         <p>
