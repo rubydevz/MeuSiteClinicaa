@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /*seletor{propriedade:valor;}*/
 *{
@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(204, 170, 124);
+    background-color: #FFF8FA;
 }
 
 header{
@@ -21,14 +21,14 @@ header{
 }
 
 nav{
-    background-color: #410b46;
+    background-color: #df589b;
     text-align: center;
     padding: 10px;
 }
 
 a{
-    font: 1.2rem 'Avenir', 'Lato', sans-serif;
-    color:rgb(255, 151, 238);
+    font: 1.2rem 'Inter', 'Lato', sans-serif;
+    color:#A4003C;
     text-decoration: none;
     margin-right: 30px;
     font-weight: bold;
@@ -40,29 +40,29 @@ a{
 }
 
 .a-menu:link, a-menu:visited{
-    color:rgb(160, 36, 197);
+    color:#eb4883;
 }
 
 .a-menu:hover, a-menu:active{
-    color:rgb(109, 15, 138);
+    color:rgb(255, 142, 217);
 }
 
 article{
     width: 100%;
-    background-color: blueviolet;
+    background-color: #faeff3;
     padding: 20px;
     box-sizing: border-box;
 }
 
 h1{
-    font: 3.5rem 'French Script MT', 'Dancing Script', cursive;
-    color: #410b46;
+    font: 3.5rem 'Kavoon', 'Dancing Script', cursive;
+    color: #350A3F;
     text-align: center;
     margin-bottom: 30px;
 }
 
 p{
-    font: 1.2rem Avenir, Lato, sans-serif;
+    font: 1.2rem Inter, Lato, sans-serif;
     color:rgb(36, 36, 35);
     text-align: justify;
     margin-bottom: 10px;
@@ -79,21 +79,21 @@ section{
 }
 
 h2{
-    font: 3.5rem 'French Script MT', 'Dancing Script', cursive;
-    color:rgb(0, 0, 0);
+    font: 2rem 'Kavoon', 'Dancing Script', cursive;
+    color:#350A3F;
 }
 
 #pag-beneficios{
-    background-color: antiquewhite;
+    background-color: #fff7fa;
     padding: 20px;
 }
 
 #pag-beneficios h2{
-    background-color: aquamarine;
+    background-color: #faeff3;
 }
 
 #pag-beneficios p{
-    color:blanchedalmond;
+    color:rgb(0, 0, 0);
     margin-top: 20px;
 }
 
@@ -103,13 +103,13 @@ ul{
 }
 
 li{
-    font: 1.2rem 'Avenir', 'Lato', sans-serif;
-    color:beige;
+    font: 1.2rem 'Inter', 'Lato', sans-serif;
+    color:rgb(0, 0, 0);
     margin-bottom: 10px;
 }
 
 #pag-tipos{
-    background-color: #410b46;
+    background-color: #faeff3;
     padding: 20px;
 }
 
@@ -142,15 +142,15 @@ li{
 }
 
 .card{
-    background-color: rgb(241, 207, 248);
+    background-color: rgb(255, 255, 255);
     margin: 10px;
     width: 25%;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px #CCCCCC;
+    box-shadow: 0px 4px 8px #ebe8e8;
 }
 
 .card:hover{
-    box-shadow: 0px 8px 16px #CCCCCC;
+    box-shadow: 0px 8px 16px #382558;
 }
 
 .card-content{
@@ -158,13 +158,13 @@ li{
 }
 
 .card-content p{
-    font: 1.2rem 'Avenir', 'Lato', sans-serif;
+    font: 1.2rem 'Inter', 'Lato', sans-serif;
     line-height: 25px;
 }
 
 h3{
-    font: 3rem 'French Script MT', 'Dancing Script', cursive;
-    color: #795548;
+    font: 2rem 'Inter', 'Dancing Script', cursive;
+    color: #634681;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -197,7 +197,7 @@ video{
 }
 
 footer{
-    background-color: #261300;
+    background-color: #39014b;
     padding: 10px;
 }
 
@@ -226,7 +226,7 @@ footer a:hover, footer a:active{
 form{
     width: 520px;
     margin: 0 auto;
-    background-color: #CCCCCC;
+    background-color: #fcf9ff;
 }
 
 input, select, textarea{
@@ -235,17 +235,17 @@ input, select, textarea{
     margin-bottom: 10px;
     padding-left: 5px;
     box-sizing: border-box;
-    border: 1px solid #795548;
-    font: 1rem 'Avenir', 'Lato', sans-serif;
+    border: 1px solid #b216d1;
+    font: 1rem 'Inter', 'Lato', sans-serif;
     background: none;
 }
 
 label, fieldset, input, select, textarea{
-    font: 1rem 'Avenir', 'Lato', sans-serif;
+    font: 1rem 'Inter', 'Lato', sans-serif;
 }
 
 fieldset{
-    border: 1px solid #CCCCCC;
+    border: 1px solid #b344b3;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -270,12 +270,19 @@ input[type="radio"], input[type="checkbox"]{
 
 input[type="submit"], input[type="reset"]{
     margin: 20px;
-    background-color: #8BC34A;
+    background-color: #70269b;
     color:#FFFFFF;
     border: 0;
     border-radius: 5px;
 }
 
 input[type="reset"]{
-    background-color: #F47E7E;
+    background-color: #f183c0;
 }
+
+.kavoon-regular {
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
