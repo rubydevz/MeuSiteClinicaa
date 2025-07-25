@@ -27,7 +27,7 @@ nav{
 }
 
 a{
-    font: 1.2rem 'Inter', 'Lato', sans-serif;
+    font: 1.2rem 'Inter', 'Arial', sans-serif;
     color:#A4003C;
     text-decoration: none;
     margin-right: 30px;
@@ -40,7 +40,7 @@ a{
 }
 
 .a-menu:link, a-menu:visited{
-    color:#eb4883;
+    color:#a40037;
 }
 
 .a-menu:hover, a-menu:active{
@@ -55,14 +55,14 @@ article{
 }
 
 h1{
-    font: 3.5rem 'Kavoon', 'Dancing Script', cursive;
+    font: 3.5rem 'Kavoon', 'Inter', cursive;
     color: #350A3F;
     text-align: center;
     margin-bottom: 30px;
 }
 
 p{
-    font: 1.2rem Inter, Lato, sans-serif;
+    font: 1.2rem 'Inter', 'Arial', sans-serif;
     color:rgb(36, 36, 35);
     text-align: justify;
     margin-bottom: 10px;
@@ -79,7 +79,7 @@ section{
 }
 
 h2{
-    font: 2rem 'Kavoon', 'Dancing Script', cursive;
+    font: 2rem 'Kavoon', 'Inter', cursive;
     color:#350A3F;
 }
 
@@ -103,7 +103,7 @@ ul{
 }
 
 li{
-    font: 1.2rem 'Inter', 'Lato', sans-serif;
+    font: 1.2rem 'Inter', 'Arial', sans-serif;
     color:rgb(0, 0, 0);
     margin-bottom: 10px;
 }
@@ -154,17 +154,17 @@ li{
 }
 
 .card-content{
-    padding: 10px;
+    padding: 20px;
 }
 
 .card-content p{
-    font: 1.2rem 'Inter', 'Lato', sans-serif;
+    font: 1.2rem 'Inter', 'Arial', sans-serif;
     line-height: 25px;
     text-align: justify;
 }
 
 h3{
-    font: 2rem 'Inter', 'Dancing Script', cursive;
+    font: 2rem 'Inter', 'Arial', cursive;
     color: #634681;
     text-align: center;
     margin-bottom: 10px;
@@ -237,12 +237,12 @@ input, select, textarea{
     padding-left: 5px;
     box-sizing: border-box;
     border: 1px solid #b216d1;
-    font: 1rem 'Inter', 'Lato', sans-serif;
+    font: 1rem 'Inter', 'Arial', sans-serif;
     background: none;
 }
 
 label, fieldset, input, select, textarea{
-    font: 1rem 'Inter', 'Lato', sans-serif;
+    font: 1rem 'Inter', 'Arial', sans-serif;
 }
 
 fieldset{
