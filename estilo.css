@@ -128,7 +128,7 @@ li{
 }
 
 #container-espaco p{
-    text-align: center;
+    text-align: justify;
     padding-bottom: 10px;
 }
 
@@ -160,6 +160,7 @@ li{
 .card-content p{
     font: 1.2rem 'Inter', 'Lato', sans-serif;
     line-height: 25px;
+    text-align: justify;
 }
 
 h3{
@@ -212,7 +213,7 @@ footer a{
 }
 
 footer a:hover, footer a:active{
-    color: #FF5722;
+    color: #224affc5;
 }
 
 #pag-agendamentos{
@@ -277,7 +278,7 @@ input[type="submit"], input[type="reset"]{
 }
 
 input[type="reset"]{
-    background-color: #f183c0;
+    background-color: #df589b;
 }
 
 .kavoon-regular {
