@@ -3,7 +3,7 @@ Projeto de um site de uma clinica de terapia que atende diversas faixas etarias.
 
 ## 🌐​Visualize o projeto:
 
-**[Ver Projeto Online](https://rubydevz.github.io/MeuSiteClinicaa/)**
+**[Ver Projeto Online](https://rubydevz.github.io/Site-Clinica-Amanhecer/)**
 
 ## 🛠️Tecnologias utilizadas:
 * Figma: Prototipação
